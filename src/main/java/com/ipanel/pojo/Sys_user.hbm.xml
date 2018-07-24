@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE hibernate-mapping PUBLIC
+        "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+        "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+
+    <class name="com.ipanel.pojo.Sys_user" table="sys_user" schema="ipanel">
+        <id name="id" column="id"/>
+        <property name="user_name" column="user_name"/>
+        <property name="password" column="password"/>
+        <property name="phone" column="phone"/>
+        <property name="email" column="email"/>
+        <property name="create_time" column="create_time"/>
+        <property name="user_type" column="user_type"/>
+    </class>
+</hibernate-mapping>

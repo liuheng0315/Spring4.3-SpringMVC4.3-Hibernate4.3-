@@ -11,6 +11,6 @@
     <title>Title</title>
 </head>
 <body>
-    <h1>使用注解映射(success)</h1>
+    <h1>使用XML映射(success)</h1>
 </body>
 </html>

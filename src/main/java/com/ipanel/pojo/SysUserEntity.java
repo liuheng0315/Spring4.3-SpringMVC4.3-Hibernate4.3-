@@ -4,27 +4,27 @@ import lombok.Data;
 
 import javax.persistence.*;
 
-//@Data
-//@Entity
+@Data
+@Entity
 
 
-//@Table(name="sys_user")
-public class Sys_user {
-//    @Id
-//    @GeneratedValue
-//    @Column(name = "id")
+@Table(name="sys_user")
+public class SysUserEntity {
+    @Id
+    @GeneratedValue
+    @Column(name = "id")
     private int id;
-//    @Column(name = "user_name")
+    @Column(name = "user_name")
     private String user_name;
-//    @Column(name = "password")
+    @Column(name = "password")
     private String password;
-//    @Column(name = "phone")
+    @Column(name = "phone")
     private String phone;
-//    @Column(name = "email")
+    @Column(name = "email")
     private String email;
-//    @Column(name = "create_time")
+    @Column(name = "create_time")
     private String create_time;
-//    @Column(name = "user_type")
+    @Column(name = "user_type")
     private String user_type;
 
     public int getId() {
